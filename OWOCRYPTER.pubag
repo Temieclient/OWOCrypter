@@ -1,0 +1,21 @@
+--OWO CRYPTER -GermanTemieWantsSprite 2023 22.10 (Made the Project) 21:48
+
+
+define labo.pubag as NLC(::Contact,4)
+
+click = int::::  --basic interger
+NLC.Msg(0,0,0,true ,"OWO",null) --Message OWO, and make it have button null(ok)
+if NLC.Msg(0,0,0) == null.result(0) --if statement when ok is pressed.
+    define labo.pubag as NLC.Binder(::Contact,9)  --I FORGOR! (make ports self-destruct also called dementia ports,)
+        incre.click(+1) --increase interger(click) by +1 [makes a byte from the computer corrupt]
+end::line6  --repeat owo
+
+if click:: == value(50) --checks if the click interger is already 50.
+    NLC:Msg(0,0,0) ==msger
+    msger.replicate --DUPLIACTE UNTIL RAM IS BROKEN
+end::line13
+
+while true do::
+    labo.pubag = not NLC  --Remove NLC from labo
+    labo.pubag.encrypt(megabytes,click) --encrypt click(integer prob 5000)´s amount of megabytes 
+end::line18  --repeat until this file (which is gonna be the last) are all encrypted.
